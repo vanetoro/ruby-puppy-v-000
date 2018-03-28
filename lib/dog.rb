@@ -13,7 +13,8 @@ class Dog
   end
   
   def all
-    @@all.each do | doggos|
-    puts doggos.name
-  end
+      @@all.each do | doggos|
+      puts doggos.name
+    end
+end
 end
