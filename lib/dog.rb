@@ -12,4 +12,8 @@ class Dog
     @@all.clear
   end
   
+  def all
+    @@all.each do | doggos|
+    puts doggos.name
+  end
 end
